@@ -1,3 +1,13 @@
+# Usage
+
+``` sh
+cd /opt/
+git clone --recursive git@github.com:aitvann/zapret-custom-strategies.git
+ln -fs "/opt/zapret-custom-strategies/configs/general(ALT)" /opt/zapret/config
+ln -s /opt/zapret-custom-strategies/ipset/zapret-hosts-google.txt /opt/zapret/ipset/zapret-hosts-google .txt
+/opt/zapret/install_easy.sh
+```
+
 # Patches
 
 ## REPO
