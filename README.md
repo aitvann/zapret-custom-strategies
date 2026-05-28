@@ -53,6 +53,12 @@ NFQWS_OPT:
 --filter-tcp=25565 --ipset-exclude="/opt/zapret/hostlists/ipset-exclude.txt" --dpi-desync-any-protocol=1 --dpi-desync-cutoff=n5 --dpi-desync=multisplit --dpi-desync-split-seqovl=582 --dpi-desync-split-pos=1 --dpi-desync-split-seqovl-pattern="/opt/zapret/files/fake/tls_clienthello_4pda_to.bin"
 ```
 
+## Youtube Fix
+
+Only for `ALT11`
+
+See https://github.com/Flowseal/zapret-discord-youtube/issues/13915#issuecomment-4560700181
+
 ## Resources
 
 - minecraft:
